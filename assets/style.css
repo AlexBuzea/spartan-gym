@@ -87,7 +87,7 @@ body {
 /*----------------------------------------------------------------------------  Social networks section */
 
 .social-networks {
- display: none;
+    display: none;
 }
 
 .social-networks a {
@@ -105,7 +105,7 @@ body {
 
 }
 
-.facebook-padding-left{
+.facebook-padding-left {
     padding-left: 4px;
 }
 
@@ -145,53 +145,66 @@ body {
 
 /*---------------------------------------------------------------------------- Homepage Introduction */
 
-
-
-
-
 .homepage-introduction {
-background-image: url('../assets/images/weights.jpg');
-background-size: cover;
-padding-left: 0;
-padding-right: 0;
-position: relative;
-margin-top: 5px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/weights.jpg'); 
+    /* background overlay code was used from stack overflow
+    https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
+
+    /* background-image: url('../assets/images/weights.jpg'); */
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    margin-top: 5px;
 }
 
 
 
+/*---------------------------------------------------------------------------- Services Section */
 
+.services-content {
+    height: 500px;
+}
+
+.services-box {
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    margin: 15px 20px;
+    color: #00000B;
+    ;
+
+}
 
 
 /*---------------------------------------------------------------------------- Media Queries */
 
 @media (min-width: 576px) {
 
-/* Header section */
+    /* Header section */
 
-.social-networks {
-    display: inline-block;
-    position: relative;
-    top: 40%;
+    .social-networks {
+        display: inline-block;
+        position: relative;
+        top: 40%;
+    }
+
+    .callout {
+        position: absolute;
+        width: 350px;
+        float: right;
+        right: 8%;
+        background-color: #00000b91;
+        padding: 2rem;
+        border-radius: 15px;
+    }
+
 }
 
-.callout {
-    position: absolute;
-    width: 350px;
-    float: right;
-    right: 8%;
-    background-color: #00000b91;
-    padding: 2rem;
-    border-radius: 15px;
-}
-
-}
 
 
 
-
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 
 
