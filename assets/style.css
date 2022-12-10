@@ -1,0 +1,104 @@
+body {
+    background-color: #00000be5;
+    color: #FFFFFF;
+}
+
+.container-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/* Home page */
+
+.header-image {
+    height: 65vh;
+    background-image: url('../assets/images/barbell.jpg');
+    background-size: cover;
+    background-position: bottom;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.logo {
+display:none;
+}
+
+.logo-mobile {
+    display:block;
+    height: 3rem;
+    width: 6rem;
+}
+.logo-centering-mobile {
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #00000b77;
+}
+
+.navbar-nav a {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+
+    /* border-right: #FFFFFF solid 1px; */
+    padding-right: 20px !important;
+    padding-left: 3px!important;
+
+
+}
+
+
+.navbar-nav a:hover {
+    color: #c91017;
+}
+
+
+/* .nav-link.active {
+    color: #ce1b21!important;
+font-weight: bold;
+} */
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-toggler {
+    /* border-color: #fff; */
+    padding: 0;
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+.logo {
+    display: inline-block;
+    position: relative;
+    left: -5rem;
+    height: 3rem;
+    width: 6rem;
+
+}
+
+.logo-mobile {
+    display: none;
+}
+
+}
