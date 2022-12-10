@@ -120,8 +120,8 @@ body {
 
 .callout {
     position: relative;
-    width: 300px;
-    background-color: #00000b91 ;
+    width: 400px;
+    background-color: #00000b91;
     padding: 2rem;
     border-radius: 15px;
     margin: 0 auto;
@@ -132,8 +132,14 @@ body {
 .callout-button {
     display: block;
     margin: 0 auto;
+    background-color: #c91017;
+    color: #fff;
 }
 
+.callout-button:hover {
+    background-color: #fff;
+    color: #00000B;
+}
 
 
 
@@ -150,10 +156,10 @@ body {
 
 .callout {
     position: absolute;
-    width: 300px;
+    width: 350px;
     float: right;
     right: 8%;
-    background-color: #00000b91 ;
+    background-color: #00000b91;
     padding: 2rem;
     border-radius: 15px;
 }
