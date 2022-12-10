@@ -1,5 +1,5 @@
 body {
-    background-color: #00000be5;
+    background-color: #00000B;
     color: #FFFFFF;
 }
 
@@ -10,10 +10,10 @@ body {
 
 
 
-/* Home page */
+/*----------------------------------------------------------------------------  Home page */
 
 .header-image {
-    height: 65vh;
+    height: 100vh;
     background-image: url('../assets/images/barbell.jpg');
     background-size: cover;
     background-position: bottom;
@@ -33,7 +33,7 @@ body {
 }
 
 
-/* Navigation */
+/*----------------------------------------------------------------------------  Navigation */
 
 .logo {
     display: none;
@@ -84,7 +84,7 @@ body {
 
 
 
-/* Social networks section */
+/*----------------------------------------------------------------------------  Social networks section */
 
 .social-networks {
  display: none;
@@ -116,16 +116,16 @@ body {
 
 
 
-/* Callout section header */
+/*----------------------------------------------------------------------------  Callout section header */
 
 .callout {
     position: relative;
-    width: 400px;
+    height: 50%;
     background-color: #00000b91;
     padding: 2rem;
     border-radius: 15px;
     margin: 0 auto;
-    top: 6rem;
+    top: 25%;
 }
 
 
@@ -143,6 +143,28 @@ body {
 
 
 
+/*---------------------------------------------------------------------------- Homepage Introduction */
+
+
+
+
+
+/* .homepage-introduction {
+background-image: url('../assets/images/rope-skipping.jpg');
+background-size: cover;
+
+padding-left: 0;
+padding-right: 0;
+position: relative;
+
+}
+ */
+
+
+
+
+
+/*---------------------------------------------------------------------------- Media Queries */
 
 @media (min-width: 576px) {
 
