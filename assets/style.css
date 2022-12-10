@@ -19,6 +19,7 @@ body {
     background-position: bottom;
     padding-left: 0;
     padding-right: 0;
+    position: relative;
 
 }
 
@@ -35,20 +36,22 @@ body {
 /* Navigation */
 
 .logo {
-display:none;
+    display: none;
 }
 
 .logo-mobile {
-    display:block;
+    display: block;
     height: 3rem;
     width: 6rem;
 }
+
 .logo-centering-mobile {
     margin: 0 auto;
 }
 
 .navbar {
-    background-color: #00000b77;
+    background-color: #00000bea;
+    z-index: 99;
 }
 
 .navbar-nav a {
@@ -57,7 +60,7 @@ display:none;
 
     /* border-right: #FFFFFF solid 1px; */
     padding-right: 20px !important;
-    padding-left: 3px!important;
+    padding-left: 3px !important;
 
 
 }
@@ -79,23 +82,114 @@ display:none;
 }
 
 
-@media (min-width: 992px) {
-.logo {
+
+
+/* Social networks section */
+
+.social-networks {
+ display: none;
+}
+
+.social-networks a {
+    padding-left: 2rem;
+}
+
+.social-networks i {
+    padding-top: 1.3rem;
+    color: #fff;
+
+}
+
+.social-networks i:hover {
+    color: #c91017;
+
+}
+
+.facebook-padding-left{
+    padding-left: 4px;
+}
+
+.instagram-padding-left {
+    padding-left: 2px;
+}
+
+
+
+
+/* Callout section header */
+
+.callout {
+    position: relative;
+    width: 300px;
+    background-color: #00000b91 ;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 0 auto;
+    top: 6rem;
+}
+
+
+.callout-button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+
+/* Header section */
+
+.social-networks {
     display: inline-block;
     position: relative;
-    left: -5rem;
-    height: 3rem;
-    width: 6rem;
+    top: 40%;
+}
+
+.callout {
+    position: absolute;
+    width: 300px;
+    float: right;
+    right: 8%;
+    background-color: #00000b91 ;
+    padding: 2rem;
+    border-radius: 15px;
+}
 
 }
 
-.logo-mobile {
-    display: none;
+
+
+
+@media (min-width: 768px) {
 }
 
 
-.navbar {
-    background-color: transparent;
-}
+
+
+
+@media (min-width: 992px) {
+
+    /* Logo */
+    .logo {
+        display: inline-block;
+        position: relative;
+        left: -5rem;
+        height: 3rem;
+        width: 6rem;
+
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+
+
+    .navbar {
+        background-color: transparent;
+    }
+
 
 }
