@@ -13,7 +13,7 @@ body {
 /*----------------------------------------------------------------------------  Home page */
 
 .header-image {
-    height: 75vh;
+    height: 100vh;
     background-image: url('../assets/images/barbell.jpg');
     background-size: cover;
     background-position: bottom;
@@ -125,7 +125,7 @@ body {
     padding: 2rem;
     border-radius: 15px;
     margin: 0 auto;
-    top: 28%;
+    top: 30%;
 }
 
 .callout-text {
@@ -150,7 +150,7 @@ body {
 /*---------------------------------------------------------------------------- Homepage Introduction */
 
 .homepage-introduction {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/weights.jpg'); 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/weights.jpg');
     /* background overlay code was used from stack overflow
     https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
 
@@ -165,10 +165,6 @@ body {
 
 
 /*---------------------------------------------------------------------------- Services Section */
-
-.services-content {
-margin: 0 10%;
-}
 
 .services-box {
     height: 20rem;
@@ -187,7 +183,21 @@ margin: 0 10%;
     border-radius: 5px;
 }
 
+.services-content {
+    margin: 5rem 0;
+}
 
+/*---------------------------------------------------------------------------- Facilities Section */
+
+
+
+.fas {
+    font-size: 2rem;
+}
+
+.facilities-box {
+    padding: 2rem;
+}
 
 /*---------------------------------------------------------------------------- Media Queries */
 
@@ -212,13 +222,19 @@ margin: 0 10%;
         border-radius: 15px;
     }
 
+    /* Facilities Section */
+
+    .facilities {
+        margin: 2rem 5rem;
+    }
+
+
 }
 
 
 
 
 @media (min-width: 768px) {}
-
 
 
 
@@ -244,5 +260,35 @@ margin: 0 10%;
         background-color: transparent;
     }
 
+    /* Facilities Section */
+
+    .facilities {
+        margin: 4rem 15rem;
+    }
+
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+    /* Services Homepage */
+    .services-box-one {
+        position: relative;
+        top: 3rem;
+    }
+
+    .services-box-two {}
+
+    .services-box-three {
+        position: relative;
+        top: 3rem;
+    }
+
+    /* Facilities Section */
+    .facilities {
+        margin: 4rem 20rem;
+    }
 
 }
