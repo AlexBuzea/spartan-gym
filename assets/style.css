@@ -120,20 +120,24 @@ body {
 
 .callout {
     position: relative;
-    height: 50%;
+    height: 300px;
     background-color: #00000b91;
     padding: 2rem;
     border-radius: 15px;
     margin: 0 auto;
-    top: 25%;
+    top: 28%;
 }
 
+.callout-text {
+    font-size: 1.1rem;
+}
 
 .callout-button {
     display: block;
     margin: 0 auto;
     background-color: #c91017;
     color: #fff;
+    font-size: 1.1rem;
 }
 
 .callout-button:hover {
@@ -187,6 +191,7 @@ body {
         display: inline-block;
         position: relative;
         top: 40%;
+        font-size: 1.2rem;
     }
 
     .callout {
