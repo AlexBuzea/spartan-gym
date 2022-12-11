@@ -9,30 +9,6 @@ body {
 }
 
 
-
-/*----------------------------------------------------------------------------  Home page */
-
-.header-image {
-    height: 100vh;
-    background-image: url('../assets/images/barbell.jpg');
-    background-size: cover;
-    background-position: bottom;
-    padding-left: 0;
-    padding-right: 0;
-    position: relative;
-
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-
 /*----------------------------------------------------------------------------  Navigation */
 
 .logo {
@@ -83,8 +59,7 @@ body {
 
 
 
-
-/*----------------------------------------------------------------------------  Social networks section */
+/*----------------------------------------------------------------------------  Home Page Social Networks */
 
 .social-networks {
     display: none;
@@ -115,8 +90,28 @@ body {
 
 
 
+/*----------------------------------------------------------------------------  Home Page Header & Callout */
 
-/*----------------------------------------------------------------------------  Callout section header */
+.header-image {
+    height: 100vh;
+    background-image: url('../assets/images/barbell.jpg');
+    background-size: cover;
+    background-position: bottom;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 .callout {
     position: relative;
@@ -147,6 +142,7 @@ body {
 
 
 
+
 /*---------------------------------------------------------------------------- Homepage Introduction */
 
 .homepage-introduction {
@@ -164,7 +160,7 @@ body {
 
 
 
-/*---------------------------------------------------------------------------- Services Section */
+/*---------------------------------------------------------------------------- Homepage Services */
 
 .services-box {
     height: 20rem;
@@ -187,7 +183,7 @@ body {
     margin: 5rem 0;
 }
 
-/*---------------------------------------------------------------------------- Facilities Section */
+/*---------------------------------------------------------------------------- Homepage Facilities */
 
 
 
@@ -199,6 +195,41 @@ body {
     padding: 2rem;
 }
 
+
+
+/*---------------------------------------------------------------------------- Homepage Testimonials */
+
+
+.circle-img {
+    background: url("/assets/images/personal-trainer.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------- Media Queries */
 
 @media (min-width: 576px) {
@@ -239,6 +270,8 @@ body {
 
 
 
+
+
 @media (min-width: 992px) {
 
     /* Logo */
@@ -267,8 +300,9 @@ body {
     }
 
 
-
 }
+
+
 
 
 @media (min-width: 1200px) {
@@ -288,7 +322,7 @@ body {
 
     /* Facilities Section */
     .facilities {
-        margin: 4rem 20rem;
+        margin: 4rem 25rem;
     }
 
 }
