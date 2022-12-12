@@ -59,7 +59,10 @@ body {
 
 
 
-/*----------------------------------------------------------------------------  Home Page Social Networks */
+/*----------------------------------------------------------------------------  Home Page Social Networks Top */
+
+
+/* Top section */
 
 .social-networks {
     display: none;
@@ -87,7 +90,6 @@ body {
 .instagram-padding-left {
     padding-left: 2px;
 }
-
 
 
 /*----------------------------------------------------------------------------  Home Page Header & Callout */
@@ -235,8 +237,21 @@ padding: 0 1rem;
 }
 
 
+/*---------------------------------------------------------------------------- Footer */
 
+footer a{
+    color: #FFFFFF!important;
+    margin-bottom: 0.5rem;
+}
 
+footer a:hover{
+    color: #c91017!important;
+}
+
+.social-media-footer i {
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+}
 
 
 
@@ -325,15 +340,15 @@ padding: 0 1rem;
 
     /* Services Homepage */
     .services-box-one {
-        position: relative;
-        top: 3rem;
+        /* position: relative;
+        top: 3rem; */
     }
 
     .services-box-two {}
 
     .services-box-three {
-        position: relative;
-        top: 3rem;
+        /* position: relative;
+        top: 3rem; */
     }
 
     /* Facilities Section */
