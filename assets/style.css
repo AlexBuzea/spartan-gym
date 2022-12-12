@@ -200,11 +200,6 @@ body {
 /*---------------------------------------------------------------------------- Homepage Testimonials */
 
 
-.circle-img {
-    background: url("/assets/images/personal-trainer.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 
 .circle-container {
     width: 12rem;
