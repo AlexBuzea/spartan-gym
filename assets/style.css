@@ -207,16 +207,31 @@ body {
 }
 
 .circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    border: 2px solid #fff;
     border-radius: 50%;
     margin: 0 auto;
+    position: relative;
+    top: -5rem;
+    background-color: #00000B;
 }
 
+.testimonials-box {
+    border: 2px solid white;
+    height: 400px;
+    width: 300px;
+    margin: 3rem 2rem;
+}
+
+.testimonials {
+    margin: 2rem 0;
+}
+
+.testimonials-heading {
+    margin-bottom: 3.5rem;
+}
 
 
 
