@@ -148,11 +148,18 @@ body {
 /*---------------------------------------------------------------------------- Homepage Introduction */
 
 .homepage-introduction {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/weights.jpg');
+    margin: 4rem 0;
+}
+
+
+/*---------------------------------------------------------------------------- Homepage Services */
+
+.services {
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/images/weights.jpg'); */
     /* background overlay code was used from stack overflow
     https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
 
-    /* background-image: url('../assets/images/weights.jpg'); */
+    background-image: url('../assets/images/weights.jpg');
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
@@ -160,9 +167,12 @@ body {
     margin-top: 5px;
 }
 
-
-
-/*---------------------------------------------------------------------------- Homepage Services */
+.services-heading {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 0.5rem;
+    width: 16rem;
+    margin: 0 auto;
+}
 
 .services-box {
     height: 20rem;
@@ -197,10 +207,25 @@ body {
     padding: 2rem;
 }
 
+.facilities-heading {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 0.5rem;
+    width: 16rem;
+    margin: 0 auto 2rem;
+}
 
 
 /*---------------------------------------------------------------------------- Homepage Testimonials */
 
+.testimonials {
+    margin: 2rem 0;
+    background-image: url('../assets/images/treadmills.jpg');
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    margin-top: 5px;
+}
 
 
 .circle-container {
@@ -222,12 +247,13 @@ body {
     margin: 3rem 2rem;
 }
 
-.testimonials {
-    margin: 2rem 0;
-}
 
 .testimonials-heading {
-    margin-bottom: 3.5rem;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 0.5rem;
+    width: 16rem;
+    margin: 1rem auto 5rem;
+
 }
 
 .testimonials-body {
