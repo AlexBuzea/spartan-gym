@@ -233,6 +233,12 @@ body {
     margin-bottom: 3.5rem;
 }
 
+.testimonials-body {
+    position: relative;
+    top: -3rem;
+padding: 0 1rem;
+}
+
 
 
 
