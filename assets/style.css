@@ -1,5 +1,5 @@
 body {
-    background-color: #00000B;
+    background-color: #5d5d6a;
     color: #FFFFFF;
 }
 
@@ -95,10 +95,10 @@ body {
 /*----------------------------------------------------------------------------  Home Page Header & Callout */
 
 .header-image {
-    height: 100vh;
-    background-image: url('../assets/images/barbell.jpg');
+    height: 500px;
+    background-image: url('../assets/images/chalk-man.jpeg');
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     padding-left: 0;
     padding-right: 0;
     position: relative;
@@ -120,7 +120,7 @@ body {
     height: 300px;
     background-color: #00000b91;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 0 auto;
     top: 30%;
 }
@@ -147,24 +147,35 @@ body {
 
 /*---------------------------------------------------------------------------- Homepage Introduction */
 
+
 .homepage-introduction {
-    margin: 4rem 0;
+    margin: 2px 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.801)), url('../assets/images/dumbells-rack.jpeg');
+    /* background-image: url('../assets/images/dumbells-rack.jpeg'); */
+    background-size: cover;
+    background-position: top;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    color:#00000B;
 }
 
 
 /*---------------------------------------------------------------------------- Homepage Services */
 
 .services {
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/images/weights.jpg'); */
+    background: linear-gradient(0deg, #3e3a39cb, #3e3a39cb), url('../assets/images/group-exercise-squat.jpeg');
     /* background overlay code was used from stack overflow
     https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
 
-    background-image: url('../assets/images/weights.jpg');
+    /* background-image: url('../assets/images/weights.jpg'); */
     background-size: cover;
+    background-position: top;
     padding-left: 0;
     padding-right: 0;
     position: relative;
-    margin-top: 5px;
+    margin-top: 2px;
+    min-height: 500px;
 }
 
 .services-heading {
@@ -192,23 +203,35 @@ body {
 }
 
 .services-content {
-    margin: 5rem 0;
+    /* margin: 5rem 0; */
 }
 
 /*---------------------------------------------------------------------------- Homepage Facilities */
 
-
+.facilities {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('../assets/images/gym-equipment.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    min-height: 500px;
+    margin-top: 2px;
+    color:#00000B;
+}
 
 .fas {
     font-size: 2rem;
+    color:#c91017;
 }
 
 .facilities-box {
-    padding: 2rem;
+    padding: 2rem 0;
+    font-weight: bold;
 }
 
 .facilities-heading {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #00000B;
     padding-bottom: 0.5rem;
     width: 16rem;
     margin: 0 auto 2rem;
@@ -224,7 +247,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     position: relative;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 
@@ -307,13 +330,13 @@ footer a:hover{
         right: 8%;
         background-color: #00000b91;
         padding: 2rem;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* Facilities Section */
 
-    .facilities {
-        margin: 2rem 5rem;
+    .facilities-margin {
+        margin: 2rem 7rem;
     }
 
 
@@ -352,8 +375,8 @@ footer a:hover{
 
     /* Facilities Section */
 
-    .facilities {
-        margin: 4rem 15rem;
+    .facilities-margin {
+        margin: 0 28rem;
     }
 
 
@@ -377,9 +400,5 @@ footer a:hover{
         top: 3rem; */
     }
 
-    /* Facilities Section */
-    .facilities {
-        margin: 4rem 25rem;
-    }
 
 }
