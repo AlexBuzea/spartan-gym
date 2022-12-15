@@ -33,8 +33,6 @@ body {
 .navbar-nav a {
     color: #FFFFFF;
     font-size: 1.1rem;
-
-    /* border-right: #FFFFFF solid 1px; */
     padding-right: 20px !important;
     padding-left: 3px !important;
 
@@ -52,7 +50,6 @@ body {
 }
 
 .navbar-toggler {
-    /* border-color: #fff; */
     padding: 0;
 
 }
@@ -151,24 +148,22 @@ body {
 .homepage-introduction {
     margin: 2px 0;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.801)), url('../assets/images/dumbells-rack.jpeg');
-    /* background-image: url('../assets/images/dumbells-rack.jpeg'); */
     background-size: cover;
     background-position: top;
     padding-left: 0;
     padding-right: 0;
     position: relative;
-    color:#00000B;
+    color: #00000B;
 }
 
 
 /*---------------------------------------------------------------------------- Homepage Services */
 
 .services {
-    background: linear-gradient(0deg, #3e3a39cb, #3e3a39cb), url('../assets/images/group-exercise-squat.jpeg');
+    background: linear-gradient(0deg, #00000bb7, #00000ba1), url('../assets/images/group-exercise-squat.jpeg');
     /* background overlay code was used from stack overflow
     https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
 
-    /* background-image: url('../assets/images/weights.jpg'); */
     background-size: cover;
     background-position: top;
     padding-left: 0;
@@ -187,13 +182,10 @@ body {
     border: 2px solid #fff;
     border-radius: 50%;
     margin: 0 auto;
-    /* position: relative;
-    top: -5rem; */
     background-color: transparent;
 }
 
 .services-box {
-    /* border: 2px solid white; */
     height: 300px;
     width: 300px;
     margin: 1rem 2rem;
@@ -201,44 +193,15 @@ body {
 
 
 .services-heading {
-    /* border-bottom: 3px solid #fff; */
-    /* padding-bottom: 0.5rem; */
-    width: 16rem;
-    margin: 2rem auto 0 ;
+    margin: 2rem auto 0;
 
 }
 
 .services-body {
     position: relative;
-  padding: 1rem 1rem;
-  text-align: center;
+    padding: 1rem 1rem;
+    text-align: center;
 }
-
-
-/* .services-heading {
-    border-bottom: 3px solid #fff;
-    padding-bottom: 0.5rem;
-    width: 16rem;
-    margin: 0 auto;
-}
-
-.services-box {
-    height: 20rem;
-    width: 22rem;
-    background-color: #fff;
-    margin: 15px 20px;
-    color: #00000B;
-    padding: 0;
-    border-radius: 5px;
-    border: solid #fff 1px;
-
-}
-
-.services-img {
-    width: 100%;
-    border-radius: 5px;
-} */
-
 
 
 /*---------------------------------------------------------------------------- Homepage Facilities */
@@ -252,12 +215,12 @@ body {
     position: relative;
     min-height: 500px;
     margin-top: 2px;
-    color:#00000B;
+    color: #00000B;
 }
 
 .fas {
     font-size: 2rem;
-    color:#c91017;
+    color: #c91017;
 }
 
 .facilities-box {
@@ -266,9 +229,6 @@ body {
 }
 
 .facilities-heading {
-    /* border-bottom: 3px solid #00000B;
-    padding-bottom: 0.5rem; */
-    width: 16rem;
     margin: 0 auto 1.5rem;
 }
 
@@ -276,20 +236,26 @@ body {
 /*---------------------------------------------------------------------------- Homepage Testimonials */
 
 .testimonials {
-    margin: 2rem 0;
-    background-image: url('../assets/images/treadmills.jpg');
+
+    background: linear-gradient(0deg, #00000ba1, #00000ba1), url('../assets/images/weights-on-floor.jpeg');
+    /* background overlay code was used from stack overflow
+    https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
+
     background-size: cover;
+    background-position: center;
     padding-left: 0;
     padding-right: 0;
     position: relative;
     margin-top: 2px;
+    min-height: 500px;
+    
 }
 
 
 .circle-container-testimonials {
     width: 12rem;
     height: 12rem;
-    padding: 1rem;
+    padding: 0.7rem;
     border: 2px solid #fff;
     border-radius: 50%;
     margin: 0 auto;
@@ -299,37 +265,47 @@ body {
 }
 
 .testimonials-box {
-    border: 2px solid white;
+    border: 1px solid white;
     height: 400px;
     width: 300px;
     margin: 3rem 2rem;
+    background-color: #00000b83;
 }
 
 
 .testimonials-heading {
-    border-bottom: 3px solid #fff;
-    padding-bottom: 0.5rem;
-    width: 16rem;
-    margin: 1rem auto 5rem;
+     margin: 3rem auto 4rem;
 
 }
 
 .testimonials-body {
     position: relative;
     top: -3rem;
-padding: 0 1rem;
+    padding: 0 1rem;
 }
 
+.testimonials-button {
+    display: block;
+    margin: 0 auto 2rem;
+    background-color: #c91017;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.testimonials-button:hover {
+background-color: #fff;
+color: #00000B;
+}
 
 /*---------------------------------------------------------------------------- Footer */
 
-footer a{
-    color: #FFFFFF!important;
+footer a {
+    color: #FFFFFF !important;
     margin-bottom: 0.5rem;
 }
 
-footer a:hover{
-    color: #c91017!important;
+footer a:hover {
+    color: #c91017 !important;
 }
 
 .social-media-footer i {
@@ -421,19 +397,6 @@ footer a:hover{
 
 
 @media (min-width: 1200px) {
-
-    /* Services Homepage */
-    .services-box-one {
-        /* position: relative;
-        top: 3rem; */
-    }
-
-    .services-box-two {}
-
-    .services-box-three {
-        /* position: relative;
-        top: 3rem; */
-    }
 
 
 }
