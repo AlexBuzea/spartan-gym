@@ -248,7 +248,7 @@ body {
     position: relative;
     margin-top: 2px;
     min-height: 500px;
-    
+
 }
 
 
@@ -274,7 +274,7 @@ body {
 
 
 .testimonials-heading {
-     margin: 3rem auto 4rem;
+    margin: 3rem auto 4rem;
 
 }
 
@@ -293,8 +293,8 @@ body {
 }
 
 .testimonials-button:hover {
-background-color: #fff;
-color: #00000B;
+    background-color: #fff;
+    color: #00000B;
 }
 
 /*---------------------------------------------------------------------------- Footer */
@@ -308,11 +308,26 @@ footer a:hover {
     color: #c91017 !important;
 }
 
-.social-media-footer i {
+.footer-section i {
     padding: 1rem 1rem;
     font-size: 1.1rem;
+    position: relative;
+    bottom: -5px;
 }
 
+.footer-section {
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #00000B;
+    margin-top:2px;
+}
+
+#copyright {
+font-size: 0.7rem;
+text-align: center;
+padding: 0;
+}
 
 
 
@@ -348,6 +363,14 @@ footer a:hover {
 
     .facilities-margin {
         margin: 2rem 7rem;
+    }
+
+    /* Footer section */
+    .footer-section i {
+        padding: 1rem 1rem;
+        font-size: 1.1rem;
+        position: relative;
+        bottom: -20px;
     }
 
 
@@ -396,7 +419,4 @@ footer a:hover {
 
 
 
-@media (min-width: 1200px) {
-
-
-}
+@media (min-width: 1200px) {}
