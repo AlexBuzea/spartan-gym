@@ -8,7 +8,7 @@ body {
     padding-right: 0;
 }
 
-  
+
 /*----------------------------------------------------------------------------  Navigation */
 
 .logo {
@@ -53,6 +53,10 @@ body {
     padding: 0;
 
 }
+
+/*----------------------------------------------------------------------------------------------------------Homepage
+------------------------------------------------------------------------------------------------------------ */
+
 
 
 /*----------------------------------------------------------------------------  Home Page Social Networks Top */
@@ -207,11 +211,12 @@ body {
     color: currentColor;
 }
 
-.services-hover-effect a:hover, .services-hover-effect a:hover .circle-container-services {
+.services-hover-effect a:hover,
+.services-hover-effect a:hover .circle-container-services {
     color: #d1a022;
     border-color: #d1a022;
-/* font-weight: bold; */
-border-width: 3px;
+    /* font-weight: bold; */
+    border-width: 3px;
 }
 
 
@@ -315,7 +320,7 @@ border-width: 3px;
     display: flex;
     align-items: flex-end;
     background-color: #00000B;
-    margin-top:2px;
+    margin-top: 2px;
 }
 
 footer a {
@@ -335,9 +340,24 @@ footer a:hover {
 }
 
 #copyright {
-font-size: 0.7rem;
-text-align: center;
-padding: 0;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------Gym Page
+------------------------------------------------------------------------------------------------------------ */
+
+.gym-intro {
+    position: relative;
+    width: 450px;
+    height: 310px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #00000b91;
+    padding: 2rem;
+    border-radius: 5px;
 }
 
 
@@ -348,6 +368,8 @@ padding: 0;
 /*---------------------------------------------------------------------------- Media Queries */
 
 @media (min-width: 576px) {
+
+    /*-------------------------------------------------Homepage */
 
     /* Header section */
 
@@ -383,20 +405,18 @@ padding: 0;
     }
 
 
+
+
+
+
 }
-
-
 
 
 @media (min-width: 768px) {}
 
-
-
-
-
-
 @media (min-width: 992px) {
 
+    /*-------------------------------------------------Homepage */
     /* Logo */
     .logo {
         display: inline-block;
@@ -416,16 +436,25 @@ padding: 0;
         background-color: transparent;
     }
 
+    /*-------------------------------------------------Gym Page */
+    .gym-intro {
+        position: absolute;
+        width: 450px;
+        height: 310px;
+        border-radius: 5px;
+        float: left;
+        left: 8%;
+        top: 30%;
+        background-color: #00000b91;
+        padding: 2rem;
+        border-radius: 5px;
+    }
 
 
 }
 
 
-
-
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
 
 
 @media (min-width: 1440px) {
