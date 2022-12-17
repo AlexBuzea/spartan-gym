@@ -367,10 +367,15 @@ footer a:hover {
     height: 310px;
     border-radius: 5px;
     margin: 0 auto;
-    /* background-color: #00000b91; */
+    background-color: #00000b91;
     padding: 2rem;
     border-radius: 5px;
+    top: 30%;
 }
+
+
+
+
 
 .main-gym {
     background-color: #ffffff;
@@ -419,9 +424,19 @@ footer a:hover {
         bottom: -20px;
     }
 
+    /*-------------------------------------------------------------------Gym */
 
-
-
+.gym-intro {
+    position: relative;
+    width: 450px;
+    height: 310px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #00000b91;
+    padding: 2rem;
+    border-radius: 5px;
+    top: 0;
+}
 
 
 }
