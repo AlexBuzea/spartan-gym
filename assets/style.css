@@ -382,7 +382,7 @@ footer a:hover {
 
 .main-gym {
     background-color: #ffffff;
-    color:#00000B;
+    color: #00000B;
 }
 
 .kit-section {
@@ -393,8 +393,8 @@ footer a:hover {
     border: 1px solid #00000b0e;
     height: 150px;
     width: 250px;
-   margin: 1rem auto;
-   padding: 0.75rem;
+    margin: 1rem auto;
+    padding: 0.75rem;
 }
 
 .kit-box hr {
@@ -406,7 +406,8 @@ footer a:hover {
 }
 
 .kit-box p {
-    font-size: 1.125rem;;
+    font-size: 1.125rem;
+    ;
     margin: inherit;
 }
 
@@ -425,13 +426,22 @@ footer a:hover {
 
 /*---------------------------------------------------------------------------- Gallery Section */
 
+.gym-gallery-button {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.gym-gallery-button button:hover {
+    background-color: #00000B;
+    color: #fff;
+}
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------Media Queries*/
 /*-----------------------------------------------------------------------------  */
 
 @media (min-width: 576px) {
-    
- /*-------------------------------------------------------------------Homepage */
+
+    /*-------------------------------------------------------------------Homepage */
 
     /* Header section */
 
@@ -469,17 +479,17 @@ footer a:hover {
 
     /*-------------------------------------------------------------------Gym */
 
-.gym-intro {
-    position: relative;
-    width: 450px;
-    height: 310px;
-    border-radius: 5px;
-    margin: 0 auto;
-    background-color: #00000b91;
-    padding: 2rem;
-    border-radius: 5px;
-    top: 0;
-}
+    .gym-intro {
+        position: relative;
+        width: 450px;
+        height: 310px;
+        border-radius: 5px;
+        margin: 0 auto;
+        background-color: #00000b91;
+        padding: 2rem;
+        border-radius: 5px;
+        top: 0;
+    }
 
 
 }
