@@ -399,7 +399,8 @@ footer a:hover {
 .kit-box hr {
     width: 4rem;
     margin: 0.5rem auto;
-    border: 2px solid red;
+    border: 2px solid #c91017;
+    background-color: #c91017;
     opacity: 1;
 }
 
