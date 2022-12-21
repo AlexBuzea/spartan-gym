@@ -30,11 +30,11 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
 6.	[Deployment]()
 7.	[Credits]()
 
----
+
 # 1. [User Experience]()
 
 ## Project Goals
----
+
 ### User Goals
 
 #### First Time Visitor Goals
@@ -61,28 +61,28 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
 # 2. Design
 
 ## Colour Scheme
----
+
 For the colour scheme a minimalistic colour scheme was chosen but with a bright red to generate an emotional response. Red is a colour of boldness vigour and stimulation. Red was also was inspired from the spartan helmet used for the company logo which goes with the warrior theme, meant to motivate people. A variation of yellow was also added to the colour palette which is the colour of energy. Coolors was then used to create a palette. 
 
 ![colour palette](/assets/images/colour-palette.png)
 
 ## Logo and typography
----
+
 The warrior helment logo was created in [Canva](https://www.canva.com/) and the white colour for a minimalistic design and to be able to convert it into an svg to achieve the transparent navigation. [Convertio](https://convertio.co/png-svg/) was then used to convert the png logo into an svg.
 
 The fonts....
 
 ## Imagery
----
+
 
 ## Content Inspiration
----
+
 
 ## Structure
----
+
 
 ## Wireframes
----
+
 <details><summary>View wireframes here</summary>
 <img src="/assets/images/wireframes/wireframe-1.png">
 <img src="/assets/images/wireframes/wireframe-2.png">
@@ -94,4 +94,3 @@ The fonts....
 
 
 ## Mockup
----
