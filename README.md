@@ -89,7 +89,5 @@ The fonts....
 <img src="/assets/images/wireframes/wireframe-4.png">
 <img src="/assets/images/wireframes/wireframe-5.png">
 </details>
-![zzz](/assets/images/wireframes/wireframe-1.png)
-
 
 ## Mockup
