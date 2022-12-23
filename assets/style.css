@@ -441,6 +441,8 @@ footer a:hover {
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------Classes Page
 ------------------------------------------------------------------------------------------------------------ */
 
+/*---------------------------------------------------------------------------- Header Section */
+
 .header-image-classes {
     height: 500px;
     background-image: url('../assets/images/group-exercise-squat.jpeg');
@@ -452,10 +454,59 @@ footer a:hover {
 
 }
 
+/*---------------------------------------------------------------------------- Main Section */
 .main-classes {
     background-color: #ffffff;
     color: #00000B;
 }
+
+
+/*---------------------------------------------------------------------------- Gallery Section */
+
+.personal-trainers {
+    background-size: cover;
+    background-position: top;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    margin-top: 2px;
+    min-height: 450px;
+}
+
+
+
+.circle-container-personal-trainers {
+    width: 12rem;
+    height: 12rem;
+    padding: 0.7rem;
+    border: 2px solid #00000B;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.personal-trainers-box {
+    height: 550px;
+    width: 280px;
+    margin: 1rem 1rem;
+}
+
+
+
+.personal-trainers-body {
+    position: relative;
+}
+
+.personal-trainers-body h3 {
+    text-align: center;
+    padding: 1rem 0;
+}
+.personal-trainers-body p{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+
 
 
 
