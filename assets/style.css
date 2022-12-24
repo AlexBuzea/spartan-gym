@@ -501,7 +501,8 @@ footer a:hover {
     text-align: center;
     padding: 1rem 0;
 }
-.personal-trainers-body p{
+
+.personal-trainers-body p {
     text-align: justify;
     font-size: 0.8rem;
 }
@@ -518,6 +519,57 @@ footer a:hover {
     padding: 1rem 0 2rem 0;
 }
 
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------Prices Page
+------------------------------------------------------------------------------------------------------------ */
+
+
+/*---------------------------------------------------------------------------- Header Section */
+.header-image-prices {
+    height: 500px;
+    background-image: url('/assets/images/kit-cardio.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+
+}
+
+/*---------------------------------------------------------------------------- Main Section */
+.main-prices {
+    background-color: #ffffff;
+    color: #00000B;
+}
+
+/*---------------------------------------------------------------------------- Memberships Section */
+
+.memberships-text {
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+.memberships h2 {
+    font-size: 1.25rem;
+    color: #00000B;
+    padding: 0.725rem 0;
+    border-bottom: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.memberships p {
+    border-bottom: 1px solid rgba(136, 136, 136, 0.5);
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+
+}
+
+.price {
+    color: #c91017;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------Media Queries*/
 /*-----------------------------------------------------------------------------  */
@@ -578,7 +630,13 @@ footer a:hover {
 }
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .border-right {
+        border-right: solid 1px black;
+    }
+
+
+}
 
 @media (min-width: 992px) {
 
