@@ -632,7 +632,7 @@ footer a:hover {
 
 @media (min-width: 768px) {
     .border-right {
-        border-right: solid 1px black;
+        border-right: solid 1px #888;
     }
 
 
