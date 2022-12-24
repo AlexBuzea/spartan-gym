@@ -571,6 +571,41 @@ footer a:hover {
     font-weight: bold;
 }
 
+.casual-prices h2 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #888;
+    width: 120px;
+}
+
+.casual-prices p {
+ margin: 0;
+ padding: 1rem 0;
+ line-height: 1.725rem;
+
+}
+
+/*---------------------------------------------------------------------------- Become a member Section */
+
+.become-member {
+
+    background: linear-gradient(0deg, #00000ba1, #00000ba1), url('../assets/images/weights-on-floor.jpeg');
+    /* background overlay code was used from stack overflow
+    https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
+
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    margin-top: 2px;
+    min-height: 400px;
+    color:#fff;
+}
+
+
+
+
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------Media Queries*/
 /*-----------------------------------------------------------------------------  */
 
@@ -631,6 +666,10 @@ footer a:hover {
 
 
 @media (min-width: 768px) {
+
+     /*-------------------------------------------------------------------Prices */   
+
+      /* Membership section */
     .border-right {
         border-right: solid 1px #888;
     }
