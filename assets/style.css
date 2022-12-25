@@ -130,8 +130,6 @@ body {
 }
 
 .callout-button {
-    display: block;
-    margin: 0 auto;
     background-color: #c91017;
     color: #fff;
     font-size: 1.1rem;
@@ -301,7 +299,6 @@ body {
 }
 
 .testimonials-button {
-    display: block;
     margin: 0 auto 2rem;
     background-color: #c91017;
     color: #fff;
@@ -610,9 +607,9 @@ footer a:hover {
 /*---------------------------------------------------------------------------- Header Section */
 .header-image-contact {
     height: 500px;
-    background-image: url('/assets/images/kit-cardio.jpg');
+    background-image: url('/assets/images/test.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     padding-left: 0;
     padding-right: 0;
     position: relative;
