@@ -425,13 +425,13 @@ footer a:hover {
 
 
 
-.gym-gallery-button {
+.gym-gallery-button{
     background-color: #c91017;
     color: #fff;
     font-size: 1.1rem;
 }
 
-.gym-gallery-button button:hover {
+.gym-gallery-button:hover {
     background-color: #00000B;
     color: #fff;
 }
@@ -619,6 +619,18 @@ footer a:hover {
 
 }
 
+
+
+.submit-button {
+    background-color: #c91017;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.submit-button:hover {
+    background-color: #00000B;
+    color: #fff;
+}
 
 
 
