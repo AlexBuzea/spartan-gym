@@ -423,9 +423,12 @@ footer a:hover {
 
 /*---------------------------------------------------------------------------- Gallery Section */
 
+
+
 .gym-gallery-button {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    background-color: #c91017;
+    color: #fff;
+    font-size: 1.1rem;
 }
 
 .gym-gallery-button button:hover {
