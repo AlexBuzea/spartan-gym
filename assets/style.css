@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&display=swap');
+
 body {
     background-color: #5d5d6a;
     color: #FFFFFF;
@@ -6,6 +8,11 @@ body {
 .container-body {
     padding-left: 0;
     padding-right: 0;
+}
+
+h1, h2, h3, h4, h5 {
+
+    font-family: Mukta, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
