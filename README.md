@@ -83,11 +83,11 @@ The fonts....
 ## Wireframes
 
 <details><summary>View wireframes here</summary>
-<img src="/assets/images/wireframes/wireframe-1.png">
-<img src="/assets/images/wireframes/wireframe-2.png">
-<img src="/assets/images/wireframes/wireframe-3.png">
-<img src="/assets/images/wireframes/wireframe-4.png">
-<img src="/assets/images/wireframes/wireframe-5.png">
+<img src="/assets/images/wireframes/wireframe-1-homepage.png">
+<img src="/assets/images/wireframes/wireframe-2-gym.png">
+<img src="/assets/images/wireframes/wireframe-3-classes.png">
+<img src="/assets/images/wireframes/wireframe-4-prices.png">
+<img src="/assets/images/wireframes/wireframe-5-contact.png">
 </details>
 
 ## Mockup
