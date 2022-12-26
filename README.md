@@ -83,10 +83,20 @@ The fonts....
 ## Wireframes
 
 <details><summary>View wireframes here</summary>
+ 
+### 1.Homepage
 <img src="/assets/images/wireframes/wireframe-1-homepage.png">
+
+### 2.Gym page
 <img src="/assets/images/wireframes/wireframe-2-gym.png">
+
+### 3.Classes page
 <img src="/assets/images/wireframes/wireframe-3-classes.png">
+
+### 4.Prices page
 <img src="/assets/images/wireframes/wireframe-4-prices.png">
+
+### 5.Contact page
 <img src="/assets/images/wireframes/wireframe-5-contact.png">
 </details>
 
