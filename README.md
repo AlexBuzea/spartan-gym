@@ -157,20 +157,78 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 ## Mockup
 
-* A mockup image has been added to this file to give an idea of the way the website is displayed on different devices. [UI Dev](https://ui.dev/amiresponsive) has been used to achieve this.
+* A mockup image has been added to this file to give an idea of the way the website is displayed on different devices which can be found at the top of this page. [UI Dev](https://ui.dev/amiresponsive) has been used to achieve this.
 
 
 # 3. Features
 
+## Curent Features
+* All current features have been designed with a mobile first approach meaning the website is fully responsive on all screen sizes.
+* Bootstrap grid system has been used to achieve this and custom CSS added to it to make some other tweaks to make sure everything looks good on all screens
 
+## Interactive Features
+* A Google Maps iFrame has been added on Homepage and Contact page which shows the users the location of the gym
+* Links on the homepage have been added via images which directs users to the wanted sections
+* A form has been added in the Contact page which users can use to sign up or contact the gym
+* Videos have been added in the classes page via iFrames which allows users to start, pause and adjust volume as wanted
+* Navbar is responsive and turns into a dropdown navbar on tablets and mobile
 
+## Future Features
+* A payment feature that allows users to pay for their membership is something that could be added later on which would make a more convenient user experience and conversion for the business as well
 
 
 # 4. Technologies Used
 
+## Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS) 
+
+## Frameworks and Other Software Used
+* [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
+  * I used Bootstrap throughout the website in order to make it responsive on all devices. It uses Containers, Gridsystem, Flexbox, Button Classes , some Bootstrap icons, aligment, padding/margin classes, shadow classes, navbar component and also some styling classes in the contact form.
+* [Gitpod](https://www.gitpod.io/)
+  * First part of the project was done via Gitpod IDE initially which was then changed later on to Visual Studio Code 
+* [Git](https://git-scm.com/)
+  * Git was used in order to push the code to Github on a constant basis and have a backup of the code
+* [Github](https://github.com/)
+  * Github was used in order to backup the code
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * Visual Studio Code was used in the second part of writing the code for this website and it is my preffered IDE
+* [Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-us&gl=us)
+  * Paint was used in order to resize some of the images initially that were too large or modify them to specific sizes
+* [Paint 3D](https://apps.microsoft.com/store/detail/paint-3d/9NBLGGH5FV99)
+  * Paint 3D was used to crop the images to specific sizes which in normal Paint wasn't as easy to do
+* [Tiny PNG](https://tinypng.com/)
+  * Tiny PNG was used to further reduce the size of all the large images further
+* [Snipping Tool](https://en.wikipedia.org/wiki/Snipping_Tool)
+  * Snipping TOol was used to take all the screenshots used in the Readme file
+* [Balsamiq](https://balsamiq.com/)
+  * Balsamiq for Desktop was used to generate the Wireframes which can be found in the Wireframes section in the Readme file
+
+Favicon: https://favicon.io/
+
+
 # 5. Testing
+
+HTML : https://validator.w3.org/
+CSS: https://jigsaw.w3.org/css-validator/
+Accessibility: https://wave.webaim.org/
+Lighthouse
+
+
 
 # 6. Deployment
 
+# Github
+
+# Forking
+
+# Cloning
+
+
+
 # 7. Credits
+* Stackoverflow
+
 
