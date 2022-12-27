@@ -2,7 +2,7 @@
 
 Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is to attract new customers and be a point of reference for existing customers. The website is designed to be user friendly and therefore responsive on all devices
 
--Mockup space-
+![mockup image](/assets/images/mockup.PNG)
 
 ## Table of Contents
 1.	[User Experience](#1-user-experience)
