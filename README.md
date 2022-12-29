@@ -205,9 +205,8 @@ The page is structured in an easy to use and intuitive way and it's designed to 
   * Snipping TOol was used to take all the screenshots used in the Readme file
 * [Balsamiq](https://balsamiq.com/)
   * Balsamiq for Desktop was used to generate the Wireframes which can be found in the Wireframes section in the Readme file
-
-Favicon: https://favicon.io/
-
+* [Favicon](https://favicon.io/favicon-converter/)
+  * Favicon was used for generating the favicon icon
 
 # 5. Testing
 
