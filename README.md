@@ -220,14 +220,56 @@ Lighthouse
 # 6. Deployment
 
 # Github
+GitHub Pages was used to deploy this website live and the instructions to achieve this can be found below:
+
+1. Log in to GitHub and go to the GitHub Repository
+2. Go to settings in the top navigation section for the repository
+3. Go to the Pages section
+4. For the source select main and click Save
+5. After a few minutes you will find the link saying "Your site is live at https://alexbuzea.github.io/spartan-gym/"
 
 # Forking
+In order to fork this repository:
+
+1. Go to the Github repository 
+2. Click on the Fork button in the top right hand corner
 
 # Cloning
+To clone this project from Github:
+
+1. Go to the Github repository [here](https://github.com/AlexBuzea/spartan-gym)
+2. Go to Code section in the top right hand corner of the repository
+3. Copy the https link
+4. Open Git Bash
+5. Change the working directory to where you want to clone the repository
+6. Type git clone, then paste the URL copied in step 3:
+
+`git clone https://github.com/AlexBuzea/spartan-gym.git`
+7. Press Enter
 
 
 
 # 7. Credits
-* Stackoverflow
 
+## Code
+* [Stackoverflow](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image) for background overlay CSS 
+
+## Images
+Images were sourced from:
+* [Adobe Stock Images](https://stock.adobe.com/)
+* [Unsplash](https://unsplash.com/)
+* [Pixabay](https://pixabay.com/) 
+* [Pexels](https://www.pexels.com/) 
+* [Gah Gym](https://www.gahgym.com/)
+* [PNG Tree](https://pngtree.com/)
+
+## Content 
+I wrote some of the content, and some of the content was inspired or used from the following sources:
+
+* [Cardiff International Pool and Gym](https://www.leisurecentre.com/cardiff-international-pool-and-gym/gym) was used for inspiration for the Gym page
+* [The Gym Group](https://www.thegymgroup.com/) some of the content on the Gym page was used from the their website
+* [Energie Fitness](https://www.energiefitness.com/cardiff) was used as inspiration for the facilities section on the Homepage
+* [The Fighters Club HK](https://www.thefightersclub.com.hk/) was used as an inspiration for the Homepage
+* [David Lloyd Club](https://www.davidlloyd.co.uk) some of the content on the Classes page was used from the their website
+* [99Designs](https://99designs.com/) was used for inspiration for general looks on gym websites
 
