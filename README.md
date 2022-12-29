@@ -24,8 +24,10 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
     * [Mockup](#mockup)
 
 3.	[Features](#3-features)
-* 
-* 	 
+    * [Current Features](#curent-features)
+    * [Interactive Features](#interactive-features)
+    * [Future Features](#future-features)
+ 
 4.	[Technologies Used](#4-technologies-used)
 5.	[Testing](#5-testing)
 6.	[Deployment](#6-deployment)
@@ -245,6 +247,7 @@ To clone this project from Github:
 6. Type git clone, then paste the URL copied in step 3:
 
 `git clone https://github.com/AlexBuzea/spartan-gym.git`
+
 7. Press Enter
 
 
