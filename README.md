@@ -218,19 +218,19 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * Testing was done via https://validator.w3.org/ and screenshots can be found below of results
 
 ### 1.Homepage
-<img src="/assets/images/testing/html-validation-homepage.png">
+<img src="/assets/images/testing/html-validation-homepage.PNG">
 
 ### 2.Gym page
-<img src="/assets/images/testing/html-validation-gym.png">
+<img src="/assets/images/testing/html-validation-gym.PNG">
 
 ### 3.Classes page
-<img src="/assets/images/testing/html-validation-classes.png">
+<img src="/assets/images/testing/html-validation-classes.PNG">
 
 ### 4.Prices page
-<img src="/assets/images/testing/html-validation-prices.png">
+<img src="/assets/images/testing/html-validation-prices.PNG">
 
 ### 5.Contact page
-<img src="/assets/images/testing/html-validation-contact.png">
+<img src="/assets/images/testing/html-validation-contact.PNG">
 </details>
 
 
@@ -249,21 +249,8 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 * Testing was done via https://wave.webaim.org/ and screenshots can be found below of results
 
-<!-- ### 1.Homepage
-<img src="/assets/images/testing/html-validation-homepage.png">
 
-### 2.Gym page
-<img src="/assets/images/testing/html-validation-gym.png">
-
-### 3.Classes page
-<img src="/assets/images/testing/html-validation-classes.png">
-
-### 4.Prices page
-<img src="/assets/images/testing/html-validation-prices.png">
-
-### 5.Contact page
-<img src="/assets/images/testing/html-validation-contact.png">
-</details> -->
+</details>
 
 
 <details><summary>Chrome Lighthouse Testing</summary>
@@ -271,19 +258,19 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * Testing was done via Chrome Lighthouse and screenshots can be found below of results
 
 ### 1.Homepage
-<img src="/assets/images/testing/lighthouse-validation-homepage.png">
+<img src="/assets/images/testing/lighthouse-validation-homepage.PNG">
 
 ### 2.Gym page
-<img src="/assets/images/testing/lighthouse-validation-gym.png">
+<img src="/assets/images/testing/lighthouse-validation-gym.PNG">
 
 ### 3.Classes page
-<img src="/assets/images/testing/lighthouse-validation-classes.png">
+<img src="/assets/images/testing/lighthouse-validation-classes.PNG">
 
 ### 4.Prices page
-<img src="/assets/images/testing/lighthouse-validation-prices.pngg">
+<img src="/assets/images/testing/lighthouse-validation-prices.PNG">
 
 ### 5.Contact page
-<img src="/assets/images/testing/lighthouse-validation-contact.png">
+<img src="/assets/images/testing/lighthouse-validation-contact.PNG">
 </details>
 
 
