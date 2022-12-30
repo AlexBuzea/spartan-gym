@@ -452,7 +452,7 @@ footer a:hover {
 
 .header-image-classes {
     height: 500px;
-    background-image: url('/assets/images/group-exercise-squat.jpeg');
+    background-image: url('assets/images/group-exercise-squat.jpeg');
     background-size: cover;
     background-position: top;
     padding-left: 0;
@@ -617,7 +617,7 @@ footer a:hover {
 /*---------------------------------------------------------------------------- Header Section */
 .header-image-contact {
     height: 500px;
-    background-image: url('/assets/images/dumbell&glove.jpg');
+    background-image: url('assets/images/dumbell&glove.jpg');
     background-size: cover;
     background-position: top;
     padding-left: 0;
