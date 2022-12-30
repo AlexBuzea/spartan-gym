@@ -218,36 +218,6 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * Testing was done via https://validator.w3.org/ and screenshots can be found below of results
 
 ### 1.Homepage
-<img src="/assets/images/wireframes/wireframe-1-homepage.png">
-
-### 2.Gym page
-<img src="/assets/images/wireframes/wireframe-2-gym.png">
-
-### 3.Classes page
-<img src="/assets/images/wireframes/wireframe-3-classes.png">
-
-### 4.Prices page
-<img src="/assets/images/wireframes/wireframe-4-prices.png">
-
-### 5.Contact page
-<img src="/assets/images/wireframes/wireframe-5-contact.png">
-</details>
-
-
-<details><summary>CSS Testing</summary>
-
-* Testing was done via https://jigsaw.w3.org/css-validator/ and screenshots can be found below of results
-
-<img src="/assets/images/testing/css-validator.PNG">
-
-</details>
-
-
-<details><summary>HTML Testing</summary>
-
-* Testing was done via https://validator.w3.org/ and screenshots can be found below of results
-
-### 1.Homepage
 <img src="/assets/images/testing/html-validation-homepage.png">
 
 ### 2.Gym page
@@ -262,6 +232,17 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 ### 5.Contact page
 <img src="/assets/images/testing/html-validation-contact.png">
 </details>
+
+
+
+<details><summary>CSS Testing</summary>
+
+* Testing was done via https://jigsaw.w3.org/css-validator/ and screenshots can be found below of results
+
+<img src="/assets/images/testing/css-validator.PNG">
+
+</details>
+
 
 
 <details><summary>Accessibility Testing</summary>
