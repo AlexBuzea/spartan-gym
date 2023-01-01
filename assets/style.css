@@ -477,6 +477,15 @@ footer a:hover {
     color: #00000B;
 }
 
+#iframe-youtube-cardio {
+    width: 100%; 
+    height: 360px;
+}
+
+#iframe-youtube-spin {
+    width: 100%; 
+    height: 360px;
+}
 
 /*---------------------------------------------------------------------------- Gallery Section */
 
@@ -637,6 +646,15 @@ footer a:hover {
 }
 
 
+/*---------------------------------------------------------------------------- Main Section */
+#contact-page-googlemap {
+    width: 100%;
+    height: 350px;
+    border: none;
+}
+
+
+/*---------------------------------------------------------------------------- Contact Form */
 
 .submit-button {
     background-color: #c91017;
