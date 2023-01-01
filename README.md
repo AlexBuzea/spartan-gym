@@ -248,7 +248,27 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 <details><summary>Accessibility Testing</summary>
 
 * Testing was done via https://wave.webaim.org/ and screenshots can be found below of results
+* No errors except an invalid error saying there is no alt text for an image when there actually is, more details on last image in this section
 
+
+### 1.Homepage
+<img src="/assets/images/testing/accessibility-test-homepage.PNG">
+
+### 2.Gym page
+<img src="/assets/images/testing/accessibility-test-gym.PNG">
+
+### 3.Classes page
+<img src="/assets/images/testing/accessibility-test-classes.PNG">
+
+### 4.Prices page
+<img src="/assets/images/testing/accessibility-test-prices.PNG">
+
+### 5.Contact page
+<img src="/assets/images/testing/accessibility-test-contact.PNG">
+
+
+### Invalid error 
+<img src="/assets/images/testing/accessibility-invalid-error.PNG">
 
 </details>
 
