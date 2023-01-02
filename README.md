@@ -7,14 +7,16 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
 [Live website](https://alexbuzea.github.io/spartan-gym/)
 
 ## Table of Contents
-1.	[User Experience](#1-user-experience)
-    * [Project Goals](#project-goals)
-      * [User Goals](#user-goals)
-        * [First Time Visitor Goals](#first-time-visitor-goals)
-        * [Returning Visitor Goals](#returning-visitor-goals)
-      * [Business Goals](#business-goals)
+1.	[Project Goals](#1-project-goals)
+    * [User Goals](#user-goals)
+    * [Business Goals](#business-goals)
 
-2.	[Design](#2-design)
+2. [User Experience](#2-user-experience)
+    * [Target Audience](#target-audience)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+    * [User Stories](#user-stories)
+
+3.	[Design]()
     * [Colour Scheme](#colour-scheme)
     * [Logo and Fonts](#logo-and-fonts)
     * [Imagery](#imagery)
@@ -23,41 +25,70 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
     * [Wireframes](#wireframes)
     * [Mockup](#mockup)
 
-3.	[Features](#3-features)
+4.	[Features]()
     * [Current Features](#curent-features)
     * [Interactive Features](#interactive-features)
     * [Future Features](#future-features)
  
-4.	[Technologies Used](#4-technologies-used)
-5.	[Testing](#5-testing)
-6.	[Deployment](#6-deployment)
-7.	[Credits](#7-credits)
+5.	[Technologies Used]()
+6.	[Testing]()
+7.  [Bugs]()
+8.	[Deployment]()
+9.	[Credits]()
 
 
-# 1. [User Experience]()
+# 1. Project Goals
 
-## Project Goals
+## User Goals
+  * Finding a gym that offers all the facilities required
+  * See membership prices
+  * Find information about the gym
+  * Find location and opening times
 
-### User Goals
+## Business Goals
+  * Attract new members by showcasing the available services in a professional and easy to find way
+  * Retain existing members by offering them all the information they would need
+  * Provide a way for customers to contact the gym
+  * Have the website accessible and user-friendly on any device
 
-#### First Time Visitor Goals
-* Easily find out information about the facilities offered at the gym including photos
-* Find out location, prices, opening times and amenities offered
-* Find out information about any classes that may be offered
-* How to contact the gym if I have any further questions
 
-#### Returning Visitor Goals
-* Find out timetable for classes
-* Find out any information about personal training
-* Check out opening times
-* Contact the gym for any further information or suggestions
-* Find the gym on social media
+
+
+# 2. User Experience
+
+## Target Audience
+  * People looking for a gym
+  * People looking for a gym with group classes
+  * People looking for a gym with personal trainers
+
+## User Requirements and Expectations
+  * An intuitive website which is easy to navigate
+  * Find out information about the gym quickly and easily
+  * Everything to work as expected on the website
+  * A professional looking website
+  * Easily contact the gym for more information
+  * Have an accessible website for disabled customers
+
+## User Stories
+
+### First Time Visitor Goals
+1. Easily find out information about the facilities offered at the gym including photos
+2. Find out location, prices, opening times and amenities offered
+3. Find out information about any classes that may be offered
+4. How to contact the gym if I have any further questions
+
+### Returning Visitor Goals
+5. Find out timetable for classes
+6. Find out any information about personal training
+7. Check out opening times
+8. Contact the gym for any further information or suggestions
+9. Find the gym on social media
 
 
 ### Business Goals
-* Attract new members by showcasing the available services in a professional and easy to find way
-* Retain existing members by offering them all the information they would need
-* Have the website accessible and user-friendly on any device
+10. Allow users to easily find information about the gym including opening times and location 
+11. Allow users to easily contact the gym
+12. Allow users to find more information about the gym facilities
 
 
 
@@ -103,37 +134,6 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * Prices - Provides information about the membership types 
 * Contact Us - Provides information about gym location, opening times and allows the user to contact the gym or sign up for a membership
 
-### Navigation
-* All pages feature a navigation, the homepage has a transparent one and all the other ones have the dark one as it was difficult from accessibility perspective to keep it transparent when it came to contrast issues
-* The navigation bar helps the user find easily whichever section he's interested in
-* When it shrink the navigation turns into a drop-down one for tablets and mobiles
-* Navigation used stays into place, a sticky one has not been chosen as the website is not large and the links from navigation are repeated in the footer
-
-![navigation transparent](/assets/images/structure/navigation-transparent.PNG)
-![navigation dark](/assets/images/structure/navigation-dark.PNG)
-![navigation mobile](/assets/images/structure/navigation-mobile.PNG)
-
-
-### Callout buttons
-* Callout buttons have been used throughout the website in order to prompt the user to either sign up or contact the gym and a red colour has been used to make it stand out from everything else.
-
-![callout button](/assets/images/structure/callout-button.PNG)
-
-### Headings
-* All pages have a heading which features as an quick introduction to the page or as a callout to sign up.
-
-![heading](/assets/images/structure/heading.PNG)
-
-### Footer
-* All pages have a footer section which repeats the link from the navigation and the social media links in order to make navigation easy for user.
-
-![footer](/assets/images/structure/footer.PNG)
-
-### 404 Page
-* A 404 page has been added in case the user mistypes something on the website which will allow them to go back the homepage. It features the navigation, social media links and a button to take them back to the homepage.
-
-![404page](/assets/images/structure/404page.PNG)
-
 
 
 ## Wireframes
@@ -177,6 +177,39 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 ## Future Features
 * A payment feature that allows users to pay for their membership is something that could be added later on which would make a more convenient user experience and conversion for the business as well
+
+
+### Navigation
+* All pages feature a navigation, the homepage has a transparent one and all the other ones have the dark one as it was difficult from accessibility perspective to keep it transparent when it came to contrast issues
+* The navigation bar helps the user find easily whichever section he's interested in
+* When it shrink the navigation turns into a drop-down one for tablets and mobiles
+* Navigation used stays into place, a sticky one has not been chosen as the website is not large and the links from navigation are repeated in the footer
+
+![navigation transparent](/assets/images/structure/navigation-transparent.PNG)
+![navigation dark](/assets/images/structure/navigation-dark.PNG)
+![navigation mobile](/assets/images/structure/navigation-mobile.PNG)
+
+
+### Callout buttons
+* Callout buttons have been used throughout the website in order to prompt the user to either sign up or contact the gym and a red colour has been used to make it stand out from everything else.
+
+![callout button](/assets/images/structure/callout-button.PNG)
+
+### Headings
+* All pages have a heading which features as an quick introduction to the page or as a callout to sign up.
+
+![heading](/assets/images/structure/heading.PNG)
+
+### Footer
+* All pages have a footer section which repeats the link from the navigation and the social media links in order to make navigation easy for user.
+
+![footer](/assets/images/structure/footer.PNG)
+
+### 404 Page
+* A 404 page has been added in case the user mistypes something on the website which will allow them to go back the homepage. It features the navigation, social media links and a button to take them back to the homepage.
+
+![404page](/assets/images/structure/404page.PNG)
+
 
 
 # 4. Technologies Used
