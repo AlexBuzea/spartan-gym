@@ -48,11 +48,11 @@ h1, h2, h3, h4, h5 {
 
 
 .navbar-nav a:hover {
-    color: #c91017;
+    color: #d1a022;
 }
 
 .navbar-nav a:focus {
-    color: #be5357ec;
+    color: #d1a022;
 }
 
 
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .social-networks i:hover {
-    color: #c91017;
+    color: #d1a022;
 
 }
 
@@ -343,7 +343,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #c91017 !important;
+    color: #d1a022 !important;
 }
 
 .footer-section i {
