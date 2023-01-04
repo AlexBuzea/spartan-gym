@@ -154,7 +154,6 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 ### 5.Contact page
 <img src="/assets/images/wireframes/wireframe-5-contact.png">
-</details>
 
 ### 6.Page 404
 <img src="/assets/images/wireframes/wireframe-6-page404.png">
