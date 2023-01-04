@@ -172,6 +172,126 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 ## Curent Features
 * All current features have been designed with a mobile first approach meaning the website is fully responsive on all screen sizes.
 * Bootstrap grid system has been used to achieve this and custom CSS added to it to make some other tweaks to make sure everything looks good on all screens
+* The website contains 6 pages (including the 404 page) and 17 features
+
+### Navigation
+* All pages feature a navigation, the homepage has a transparent one and all the other ones have the dark one as it was difficult from accessibility perspective to keep it transparent when it came to contrast issues
+* The navigation bar helps the user find easily whichever section he's interested in
+* When it shrinks the navigation turns into a drop-down one for tablets and mobiles
+* Navigation used stays into place, a sticky one has not been chosen as the website is not large and the links from navigation are repeated in the footer
+* User stories covered: 1
+
+![navigation transparent](/assets/images/structure/navigation-transparent.PNG)
+![navigation dark](/assets/images/structure/navigation-dark.PNG)
+![navigation mobile](/assets/images/structure/navigation-mobile.PNG)
+
+
+### Callout Buttons
+* Callout buttons have been used throughout the website in order to prompt the user to either sign up or contact the gym and a red colour has been used to make it stand out from everything else.
+* User stories covered: 11
+
+![callout button](/assets/images/structure/callout-button.PNG)
+
+### Headings
+* All pages have a heading which features as an quick introduction to the page or as a callout to sign up.
+* User stories covered: 1, 9, 10
+
+![heading](/assets/images/structure/heading.PNG)
+
+### Footer
+* All pages have a footer section which repeats the link from the navigation and the social media links in order to make navigation easy for user.
+* User stories covered: 1, 9
+
+![footer](/assets/images/structure/footer.PNG)
+
+### Gym Information
+* Allows users to find out more information about the gym, the address, opening times, parking and location
+* User stories covered: 2, 7, 10
+
+![gym information](/assets/images/structure/gym-info.PNG)
+
+### Services Links
+* Allows users to easily navigate to other sections of the website the users might be interested in with the aid of visual effects to make them stand out
+* User stories covered: 1, 2, 5, 6, 12
+
+![services links](/assets/images/structure/services-links.PNG)
+
+### Facilities
+* Informs the users about the facilities available at the gym
+* User stories covered: 1, 12
+
+![facilities](/assets/images/structure/facilities.PNG)
+
+### Testimonials
+* Allows users to find out more about the gym atmosphere through other members testimonials
+* User stories covered: 12
+
+![testimonials](/assets/images/structure/testimonials.PNG)
+
+### Gym Kit
+* Gives users more information about the available equipment in the gym
+* User stories covered: 1, 12
+
+![kit](/assets/images/structure/kit.PNG)
+
+### Kit Details
+* Gives users more detailed information about the equipment
+* User stories covered: 1, 12
+
+![kit details](/assets/images/structure/kit-details.PNG)
+
+### Gym Gallery
+* Allows users to see images of the gym machines
+* User stories covered: 1, 12
+
+![gym gallery](/assets/images/structure/gym-gallery.PNG)
+
+### Classes details
+* Gives users more detailed information about the classes available via a set of videos and images
+* User stories covered: 3, 12
+
+![classes details](/assets/images/structure/classes-details.PNG)
+
+
+### Personal Trainers
+* Allows users to meet the personal trainers and their expertise in order to know which one is most suitable for them
+* User stories covered: 1, 6
+
+![personal trainers](/assets/images/structure/personal-trainers.PNG)
+
+### Classes Schedule
+* Gives users the timetable for the classes available
+* User stories covered: 3,5 
+
+![classes schedule](/assets/images/structure/classes-schedule.PNG)
+
+### Membership Prices
+* Gives users details about the membership types and prices
+* User stories covered: 2
+
+![membership prices](/assets/images/structure/membership-prices.PNG)
+
+### Gym Information
+* Allows users to find out more information about the gym, the address, opening times, parking and location
+* User stories covered: 2, 7, 10
+
+![gym information](/assets/images/structure/gym-info-2.PNG)
+
+## Contact Form
+* Allows users to contact the gym or sign up for a membership
+* User stories covered: 4, 8, 11
+
+![contact form](/assets/images/structure/contact-form.PNG)
+
+
+### 404 Page
+* A 404 page has been added in case the user mistypes something on the website which will allow them to go back the homepage. It features the navigation, social media links and a button to take them back to the homepage.
+* User stories covered: 10
+
+![404page](/assets/images/structure/404page.PNG)
+
+
+
 
 ## Interactive Features
 * A Google Maps iFrame has been added on Homepage and Contact page which shows the users the location of the gym
@@ -182,39 +302,6 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 ## Future Features
 * A payment feature that allows users to pay for their membership is something that could be added later on which would make a more convenient user experience and conversion for the business as well
-
-
-### Navigation
-* All pages feature a navigation, the homepage has a transparent one and all the other ones have the dark one as it was difficult from accessibility perspective to keep it transparent when it came to contrast issues
-* The navigation bar helps the user find easily whichever section he's interested in
-* When it shrink the navigation turns into a drop-down one for tablets and mobiles
-* Navigation used stays into place, a sticky one has not been chosen as the website is not large and the links from navigation are repeated in the footer
-
-![navigation transparent](/assets/images/structure/navigation-transparent.PNG)
-![navigation dark](/assets/images/structure/navigation-dark.PNG)
-![navigation mobile](/assets/images/structure/navigation-mobile.PNG)
-
-
-### Callout buttons
-* Callout buttons have been used throughout the website in order to prompt the user to either sign up or contact the gym and a red colour has been used to make it stand out from everything else.
-
-![callout button](/assets/images/structure/callout-button.PNG)
-
-### Headings
-* All pages have a heading which features as an quick introduction to the page or as a callout to sign up.
-
-![heading](/assets/images/structure/heading.PNG)
-
-### Footer
-* All pages have a footer section which repeats the link from the navigation and the social media links in order to make navigation easy for user.
-
-![footer](/assets/images/structure/footer.PNG)
-
-### 404 Page
-* A 404 page has been added in case the user mistypes something on the website which will allow them to go back the homepage. It features the navigation, social media links and a button to take them back to the homepage.
-
-![404page](/assets/images/structure/404page.PNG)
-
 
 
 # 4. Technologies Used
