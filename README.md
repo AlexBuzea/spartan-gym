@@ -25,7 +25,7 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
     * [Wireframes](#wireframes)
     * [Mockup](#mockup)
 
-4.	[Features]()
+4.	[Features](#3-features)
     * [Current Features](#curent-features)
     * [Interactive Features](#interactive-features)
     * [Future Features](#future-features)
@@ -302,6 +302,8 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 ## Future Features
 * A payment feature that allows users to pay for their membership is something that could be added later on which would make a more convenient user experience and conversion for the business as well
+
+
 
 
 # 4. Technologies Used
