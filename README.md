@@ -257,7 +257,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * Allows users to meet the personal trainers and their expertise in order to know which one is most suitable for them
 * User stories covered: 1, 6
 
-![personal trainers](/assets/images/structure/personal-trainers.PNG)
+![personal trainers](/assets/images/structure/personal-trainers-info.PNG)
 
 ### Classes Schedule
 * Gives users the timetable for the classes available
