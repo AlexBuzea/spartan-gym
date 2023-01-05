@@ -211,7 +211,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 ### Services Links
 * Allows users to easily navigate to other sections of the website the users might be interested in with the aid of visual effects to make them stand out
-* User stories covered: 1, 2, 5, 6, 12
+* User stories covered: 1, 2, 3, 5, 6, 12
 
 ![services links](/assets/images/structure/services-links.PNG)
 
@@ -450,21 +450,142 @@ The website was tested on the following browsers:
 | Services links | Scroll down to services section and select which service interested in  | Find information about those services | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="/assets/images/structure/navigation-transparent.PNG">
+<img src="/assets/images/testing/homepage-services-testing.png">
 </details>
 
 2. Find out location, prices, opening times and amenities offered (first time visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Prices table | Select prices link in navigation bar | Find information about prices | Works as expected |
+| Gym information section on homepage | Scroll on homepage and find info about facilities, address and times | Find information location, prices, opening times and amenities offered | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/prices-table-testing.png">
+<img src="/assets/images/testing/gym-info-homepage-testing.png">
+</details>
+
 3. Find out information about any classes that may be offered (first time visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Classes details | Select classes link in navigation bar | Find information about classes | Works as expected |
+| Classes schedule | Select classes link in navigation bar and scroll to bottom  | Find classes schedule | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/classes-details-testing.png">
+<img src="/assets/images/testing/classes-schedule-testing.png">
+</details>
+
 4. How to contact the gym if I have any further questions (first time visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact form | Select contact us link from navigation bar and locate contact form | Find form and contact gym | Works as expected |
+| Footer | Scroll down and select contact us link  | Find form and contact gym | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/contact-form-testing.png">
+<img src="/assets/images/testing/footer-contact-testing.png">
+</details>
+
 5. Find out timetable for classes (returning visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Classes schedule | Select classes link in navigation bar and scroll to bottom  | Find classes schedule | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/classes-schedule-testing.png">
+
+</details>
+
 6. Find out any information about personal training (returning visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Personal trainers | Select classses in navigation bar and locate personal trainers section | Find information about personal trainers | Works as expected |
+| Services links | Scroll down to services section and select personal training | Find information personal training | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/personal-trainers-testing.png">
+<img src="/assets/images/testing/personal-training-services-testing.png">
+</details>
+
 7. Check out opening times (returning visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gym information section on homepage | Scroll on homepage and find info about facilities, address and times | Find information location, prices, opening times and amenities offered | Works as expected |
+| Gym information section on contact us page | Select contact us from navigation bar, scroll on contact page and find info about facilities, address and times  | Find information about those services | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/gym-info-homepage-testing.png">
+<img src="/assets/images/testing/gym-info-hcontact-page-testing.png">
+</details>
+
 8. Contact the gym for any further information or suggestions (returning visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact form | Select contact us link from navigation bar and locate contact form | Find form and contact gym | Works as expected |
+| Footer | Scroll down and select contact us link  | Find form and contact gym | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/contact-form-testing.png">
+<img src="/assets/images/testing/footer-contact-testing.png">
+</details>
+
 9. Find the gym on social media (returning visitor)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Heading section | Click on social media icon on the side | Find social media page for gym | Works as expected |
+| Footer | Scroll down to footer and click on social media icon  | Find social media page for gym | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/social-media-heading-testing.png">
+<img src="/assets/images/testing/social-media-footer-testing.png">
+</details>
+
 10. Allow users to easily find information about the gym including opening times and location (business goals)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gym page | Navigate to gym section on navigation bar  | Find information about facilities available | Works as expected |
+| Google map on homepage | Scroll on home page and see google map | Find gym location| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/gym-page-testing.png">
+<img src="/assets/images/testing/google-map-homepage-testing.png">
+</details>
+
 11. Allow users to easily contact the gym (business goals)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact form | Select contact us link from navigation bar and locate contact form | Find form and contact gym | Works as expected |
+| Footer | Scroll down and select contact us link  | Find form and contact gym | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/contact-form-testing.png">
+<img src="/assets/images/testing/footer-contact-testing.png">
+</details>
+
 12. Allow users to find more information about the gym facilities (business goals)
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities section | Scroll down on home page and see facilities | Find facilities available at gym | Works as expected |
+| Gym gallery | Navigate to gym section on navigation bar  | Find information about facilities available | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/testing/facilities-testing.png">
+<img src="/assets/images/testing/gym-gallery-testing.png">
+</details>
+
 </details>
 
 # 7. Bugs
