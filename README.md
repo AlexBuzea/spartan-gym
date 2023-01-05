@@ -523,7 +523,7 @@ The website was tested on the following browsers:
 
 <details><summary>Screenshots</summary>
 <img src="/assets/images/testing/gym-info-homepage-testing.png">
-<img src="/assets/images/testing/gym-info-hcontact-page-testing.png">
+<img src="/assets/images/testing/gym-info-contact-page-testing.png">
 </details>
 
 8. Contact the gym for any further information or suggestions (returning visitor)
