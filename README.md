@@ -443,6 +443,7 @@ The website was tested on the following browsers:
 <details><summary>Testing User Stories</summary>
 
 1. Easily find out information about the facilities offered at the gym including photos (first time visitor)
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation bar | Select whichever topic interested in | Find information about that topic | Works as expected |
