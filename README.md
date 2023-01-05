@@ -92,7 +92,7 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
 
 
 
-# 2. Design
+# 3. Design
 
 ## Colour Scheme
 
@@ -166,7 +166,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * A mockup image has been added to this file to give an idea of the way the website is displayed on different devices which can be found at the top of this page. [UI Dev](https://ui.dev/amiresponsive) has been used to achieve this.
 
 
-# 3. Features
+# 4. Features
 
 ## Curent Features
 * All current features have been designed with a mobile first approach meaning the website is fully responsive on all screen sizes.
@@ -305,7 +305,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 
 
-# 4. Technologies Used
+# 5. Technologies Used
 
 ## Languages Used
 
@@ -336,10 +336,10 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 * [Favicon](https://favicon.io/favicon-converter/)
   * Favicon was used for generating the favicon icon
 
-# 5. Testing
+# 6. Testing
 
 
-<details><summary>HTML Testing</summary>
+<details><summary>HTML TValidation</summary>
 
 * Testing was done via https://validator.w3.org/ and screenshots can be found below of results
 * No html errors on any of the pages
@@ -362,7 +362,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 
 
-<details><summary>CSS Testing</summary>
+<details><summary>CSS Validation</summary>
 
 * Testing was done via https://jigsaw.w3.org/css-validator/ and screenshots can be found below of results
 * CSS file was uploaded directly and no errors found
@@ -373,7 +373,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 
 
 
-<details><summary>Accessibility Testing</summary>
+<details><summary>Accessibility Evaluation</summary>
 
 * Testing was done via https://wave.webaim.org/ and screenshots can be found below of results
 * No errors except an invalid error saying there is no alt text for an image when there actually is, more details on last image in this section
@@ -401,7 +401,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 </details>
 
 
-<details><summary>Chrome Lighthouse Testing</summary>
+<details><summary>Performance Testing</summary>
 
 * Testing was done via Chrome Lighthouse and screenshots can be found below of results
 
@@ -421,11 +421,55 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 <img src="/assets/images/testing/lighthouse-validation-contact.PNG">
 </details>
 
+<details><summary>Performance Testing on Devices</summary>
+The website was tested on the following devices:
+
+* HP Pavilion 15'
+* Xiaomi Redmi Note 10
+
+The website was also tested in Chrome Developer Tools for various devices option including mobile phones and tablets.
+
+</details>
+
+<details><summary>Browsers Compatibility</summary>
+The website was tested on the following browsers:
+
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+* Opera
+</details>
+
+<details><summary>Testing User Stories</summary>
+
+1. Easily find out information about the facilities offered at the gym including photos (first time visitor)
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation bar | Select whichever topic interested in | Find information about that topic | Works as expected |
+| Services links | Scroll down to services section and select which service interested in  | Find information about those services | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+2. Find out location, prices, opening times and amenities offered (first time visitor)
+3. Find out information about any classes that may be offered (first time visitor)
+4. How to contact the gym if I have any further questions (first time visitor)
+5. Find out timetable for classes (returning visitor)
+6. Find out any information about personal training (returning visitor)
+7. Check out opening times (returning visitor)
+8. Contact the gym for any further information or suggestions (returning visitor)
+9. Find the gym on social media (returning visitor)
+10. Allow users to easily find information about the gym including opening times and location (business goals)
+11. Allow users to easily contact the gym (business goals)
+12. Allow users to find more information about the gym facilities (business goals)
+</details>
+
+# 7. Bugs
 
 
-
-
-# 6. Deployment
+# 8. Deployment
 
 # Github
 GitHub Pages was used to deploy this website live and the instructions to achieve this can be found below:
@@ -458,7 +502,7 @@ To clone this project from Github:
 
 
 
-# 7. Credits
+# 9. Credits
 
 ## Code
 * [Stackoverflow](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image) for background overlay CSS 
