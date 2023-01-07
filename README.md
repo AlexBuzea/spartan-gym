@@ -30,11 +30,11 @@ Spartan Gym is a fictional gym located in Cardiff, UK. The aim of the website is
     * [Interactive Features](#interactive-features)
     * [Future Features](#future-features)
  
-5.	[Technologies Used]()
-6.	[Testing]()
-7.  [Bugs]()
-8.	[Deployment]()
-9.	[Credits]()
+5.	[Technologies Used](#5-technologies-used)
+6.	[Testing](#6-testing)
+7.  [Bugs](#7-bugs)
+8.	[Deployment](#8-deployment)
+9.	[Credits](#9-credits)
 
 
 # 1. Project Goals
@@ -105,22 +105,6 @@ For the colour scheme a minimalistic colour scheme was chosen but with a bright 
 The warrior helment logo was created in [Canva](https://www.canva.com/) and the white colour for a minimalistic design and to be able to convert it into an svg to achieve the transparent navigation. [Convertio](https://convertio.co/png-svg/) was then used to convert the png logo into an svg.
 
 The fonts were imported from [Google Fonts](https://fonts.google.com/) and Mukta font was used in the headings to give it a minimalistic and easy to read font.
-
-## Imagery
-
-Images were sourced from [Adobe Stock Images](https://stock.adobe.com/), [Unsplash](https://unsplash.com/), [Pixabay](https://pixabay.com/), [Pexels](https://www.pexels.com/),[Gah Gym](https://www.gahgym.com/) and [PNG Tree](https://pngtree.com/)
-
-## Content Inspiration
-
-* I wrote some of the content, and some of the content was inspired or used from the following sources:
-
-  * [Cardiff International Pool and Gym](https://www.leisurecentre.com/cardiff-international-pool-and-gym/gym) was used for inspiration for the Gym page
-  * [The Gym Group](https://www.thegymgroup.com/) some of the content on the Gym page was used from the their website
-  * [Energie Fitness](https://www.energiefitness.com/cardiff) was used as inspiration for the facilities section on the Homepage
-  * [The Fighters Club HK](https://www.thefightersclub.com.hk/) was used as an inspiration for the Homepage
-  * [David Lloyd Club](https://www.davidlloyd.co.uk) some of the content on the Classes page was used from the their website
-  * [99Designs](https://99designs.com/) was used for inspiration for general looks on gym websites
-
 
 
 
