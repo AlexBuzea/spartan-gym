@@ -589,7 +589,13 @@ The website was tested on the following browsers:
 </details>
 
 # 7. Bugs
+* On tablet and mobile screen Page 404 came up with some grey margin at the bottom which is more noticeable on mobile if you scroll down
 
+![page404 bug](/assets/images/testing/bug-page404.PNG)
+
+* Was not able to find the source of this and was fixed by adding the footer to the page
+
+![page404 bug](/assets/images/testing/bug-page404-fix.PNG)
 
 # 8. Deployment
 
