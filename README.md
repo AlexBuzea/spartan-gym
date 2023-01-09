@@ -321,7 +321,7 @@ The page is structured in an easy to use and intuitive way and it's designed to 
 # 6. Testing
 
 
-<details><summary>HTML TValidation</summary>
+<details><summary>HTML Validation</summary>
 
 * Testing was done via https://validator.w3.org/ and screenshots can be found below of results
 * No html errors on any of the pages
